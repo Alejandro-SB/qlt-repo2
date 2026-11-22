@@ -1,0 +1,6 @@
+{
+    "name": "Maintainerr",
+    "description": "Auto delete watched media",
+    "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/maintainerr.png",
+    "instructions": "Modify the Env variable TZ to fit the needs"
+}
