@@ -1,0 +1,6 @@
+{
+    "name": "Navidrome",
+    "description": "Music streaming server",
+    "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/navidrome.png",
+    "instructions": "Modify the Env variable TZ to fit the needs"
+}

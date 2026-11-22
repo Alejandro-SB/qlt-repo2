@@ -1,0 +1,6 @@
+{
+    "name": "Sonarr",
+    "description": "TV series",
+    "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/sonarr.png",
+    "instructions": "Modify the Env variable TZ to fit the needs"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Prowlarr",
+    "description": "Tracker management",
+    "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/prowlarr.png",
+    "instructions": "Modify the Env variable TZ to fit the needs"
+}

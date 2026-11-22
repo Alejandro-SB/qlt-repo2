@@ -1,0 +1,33 @@
+[Unit]
+Description=Manage indexers
+Wants=network-online.target
+After=network-online.target
+After=local-fs.target
+
+[Container]
+ContainerName=prowlarr
+
+Image=ghcr.io/hotio/prowlarr
+
+AutoUpdate=registry
+
+Volume=/var/opt/containers/prowlarr:/config:Z
+Volume=/var/mnt/media:/data:z
+
+Network=arr.network
+
+PublishPort=9696:9696
+
+Label=homepage.group=Download
+Label=homepage.name=Prowlarr
+Label=homepage.icon=prowlarr.png
+Label=homepage.href=http://10.0.0.3:9696
+Label=homepage.description="Manage indexers"
+
+[Service]
+Restart=on-failure
+TimeoutStartSec=90
+
+[Install]
+WantedBy=default.target
+
